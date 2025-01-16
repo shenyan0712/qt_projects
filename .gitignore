@@ -1,8 +1,8 @@
 # CMake 构建目录
-/build/
-/out/
-/cmake-build-debug/
-/cmake-build-release/
+build/
+out/
+cmake-build-debug/
+cmake-build-release/
 
 # CMake 生成的缓存文件
 CMakeCache.txt
