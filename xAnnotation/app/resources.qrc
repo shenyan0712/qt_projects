@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/rotate.png</file>
+        <file>icon/resize.png</file>
+    </qresource>
+</RCC>

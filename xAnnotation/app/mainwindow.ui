@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionCreateRect"/>
+   <addaction name="actionCreateEllipse"/>
+   <addaction name="actionRotate"/>
+   <addaction name="actionDelete"/>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+   <addaction name="actionScrollHandDrag"/>
+  </widget>
+  <action name="actionCreateRect">
+   <property name="text">
+    <string>CreateRect</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionCreateEllipse">
+   <property name="text">
+    <string>CreateEllipse</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionRotate">
+   <property name="text">
+    <string>rotate</string>
+   </property>
+   <property name="toolTip">
+    <string>rotate item</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>delete</string>
+   </property>
+   <property name="toolTip">
+    <string>delete item</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionZoomIn">
+   <property name="text">
+    <string>zoomIn</string>
+   </property>
+   <property name="toolTip">
+    <string>zoom in</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="text">
+    <string>zoomOut</string>
+   </property>
+   <property name="toolTip">
+    <string>zoom out</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+  <action name="actionScrollHandDrag">
+   <property name="text">
+    <string>ScrollHandDrag</string>
+   </property>
+   <property name="toolTip">
+    <string>ScrollHandDrag</string>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::MenuRole::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
