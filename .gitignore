@@ -1,3 +1,18 @@
+# CMake 构建目录
+/build/
+/out/
+/cmake-build-debug/
+/cmake-build-release/
+
+# CMake 生成的缓存文件
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
 # C++ objects and libs
 *.slo
 *.lo
